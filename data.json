@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "title": "PHP Mastery Quiz Pro",
+    "description": "Test your PHP knowledge with this interactive quiz",
+    "version": "1.1",
+    "time_per_question": 60,
+    "passing_score": 0.75,
+    "features": {
+      "randomize_questions": true,
+      "show_explanations": true,
+      "save_progress": true
+    },
+    "categories": ["PHP Basics", "Variables", "Functions", "Operators"]
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What does PHP stand for?",
+      "options": [
+        "Personal Home Page",
+        "PHP: Hypertext Preprocessor",
+        "Private Hosting Platform",
+        "Preprocessed Hypertext Page"
+      ],
+      "answer": "PHP: Hypertext Preprocessor",
+      "explanation": "PHP originally stood for Personal Home Page, but it now stands for PHP: Hypertext Preprocessor (a recursive acronym).",
+      "category": "PHP Basics",
+      "difficulty": 1
+    },
+    {
+      "id": "q2",
+      "question": "Which of the following is NOT a valid PHP variable name?",
+      "options": [
+        "$myVariable",
+        "$my_variable",
+        "$my-variable",
+        "$myVariable1"
+      ],
+      "answer": "$my-variable",
+      "explanation": "Variable names in PHP can only contain alphanumeric characters and underscores. Hyphens are not allowed.",
+      "category": "Variables",
+      "difficulty": 1
+    },
+    {
+      "id": "q3",
+      "question": "What is the result of echo \"1\" + \"2\" in PHP?",
+      "options": ["12", "3", "\"1\"+\"2\"", "Error"],
+      "answer": "3",
+      "explanation": "PHP performs type juggling. When using the + operator with strings that contain numbers, PHP converts them to numbers before adding.",
+      "category": "Operators",
+      "difficulty": 2
+    },
+    {
+      "id": "q4",
+      "question": "Which function is used to check if a variable is an array?",
+      "options": ["is_array()", "array_check()", "isarray()", "check_array()"],
+      "answer": "is_array()",
+      "explanation": "The is_array() function is the correct PHP function to check if a variable is an array.",
+      "category": "Functions",
+      "difficulty": 1
+    },
+    {
+      "id": "q5",
+      "question": "What does the === operator compare in PHP?",
+      "options": [
+        "Only values",
+        "Only types",
+        "Both values and types",
+        "Neither values nor types"
+      ],
+      "answer": "Both values and types",
+      "explanation": "The === operator is the identical operator in PHP, which checks both value and type.",
+      "category": "Operators",
+      "difficulty": 2
+    },
+    {
+      "id": "q6",
+      "question": "Which of these is used to start a session in PHP?",
+      "options": [
+        "session_begin()",
+        "start_session()",
+        "session_start()",
+        "init_session()"
+      ],
+      "answer": "session_start()",
+      "explanation": "session_start() is the correct function to start a new session or resume an existing one.",
+      "category": "Functions",
+      "difficulty": 2
+    },
+    {
+      "id": "q7",
+      "question": "What is the correct way to include a file in PHP?",
+      "options": [
+        "#include \"file.php\"",
+        "include \"file.php\"",
+        "include file.php",
+        "include: \"file.php\""
+      ],
+      "answer": "include \"file.php\"",
+      "explanation": "The include statement is used to include and evaluate the specified file.",
+      "category": "PHP Basics",
+      "difficulty": 1
+    },
+    {
+      "id": "q8",
+      "question": "What does the NULL value represent in PHP?",
+      "options": [
+        "A variable with no value assigned",
+        "A variable set to 0",
+        "A variable set to an empty string",
+        "A variable that has not been declared"
+      ],
+      "answer": "A variable with no value assigned",
+      "explanation": "NULL in PHP represents a variable with no value or a variable that has been unset.",
+      "category": "Variables",
+      "difficulty": 1
+    }
+  ],
+  "certificate": {
+    "enabled": true,
+    "passing_score": 0.7,
+    "design": "modern"
+  }
+}

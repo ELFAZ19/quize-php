@@ -1,0 +1,67 @@
+[
+  {
+    "question": "Which file extension is commonly used for PHP files?",
+    "choices": [".ph", ".html", ".php", ".js"],
+    "correct": 2
+  },
+  {
+    "question": "What will `strlen(\"Hello\")` return?",
+    "choices": ["4", "5", "6", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is a correct way to write a comment in PHP?",
+    "choices": [
+      "# This is a comment",
+      "// This is a comment",
+      "/* This is a comment */",
+      "All of the above"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is the purpose of `isset()` in PHP?",
+    "choices": [
+      "Checks if variable is empty",
+      "Checks if variable is declared and not null",
+      "Declares a variable",
+      "Deletes a variable"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which operator is used for concatenation in PHP?",
+    "choices": ["+", ".", "&", "::"],
+    "correct": 1
+  },
+  {
+    "question": "What is the result of `true && false` in PHP?",
+    "choices": ["true", "false", "1", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is used to define a function in PHP?",
+    "choices": ["def", "function", "func", "define"],
+    "correct": 1
+  },
+  {
+    "question": "How can you connect to a MySQL database in PHP (procedural)?",
+    "choices": [
+      "connect_db()",
+      "mysqli_connect()",
+      "db_connect()",
+      "mysql_open()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which method is used to send data in a more secure way via forms?",
+    "choices": ["GET", "SEND", "POST", "PUSH"],
+    "correct": 2
+  },
+  {
+    "question": "Which keyword is used to throw an exception in PHP?",
+    "choices": ["error", "throw", "catch", "raise"],
+    "correct": 1
+  }
+]
